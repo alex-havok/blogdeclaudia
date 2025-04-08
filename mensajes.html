@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap" rel="stylesheet">
+	</script>
+	<style type="text/css">
+		html body{
+			background: #ffbe00;
+			font-family: 'Roboto Mono', monospace ;
+			padding: 30px 50px;
+			font-size: 18px;
+		}
+		#container{
+			border: 3px solid #004ba8;
+			padding: 50px;
+		}
+		#top{
+			background: #01c1cc;
+			padding: 10px;
+			border-top: 5px solid #004ba8;
+			border-left: 5px solid #004ba8;
+			border-right: 5px solid #004ba8;
+			height: 13px;
+		}
+		#content{
+			border: 5px solid #004ba8;
+			padding: 50px;
+			background: black;
+			color: #ffffff;
+		}
+		.linea1, .linea2{
+			height: 4px;
+			width: 88%;
+			float: left;
+			background: #004ba8;
+			margin-bottom: 6px;
+		}
+		.boton{
+			border-radius: 5px;
+			height: 10px;
+			width: 10px;
+			background: #ffbe00;
+			float: right;
+			margin-top:-13px;
+			margin-left: 10px;
+			border: 5px solid #004ba8;
+		}
+		.boton:nth-child(3) {
+		  background: #aae50a;
+		}
+		.boton:nth-child(5) {
+		  background: #e5670a;
+		}
+		p{
+			font-weight: Thin;
+			line-height: 1.3em;
+			text-indent: 40px;
+
+		}
+		
+		@media only screen and (max-width: 600px) {
+		 .linea1, .linea2 {
+		   width: 70%;
+		   background: red;
+		  }
+		}
+		h4{
+		  	color: #004ba8;
+		  	font-style: italic;
+		  	margin: 0;
+		  	padding: 0;
+		  	overflow: hidden;
+		  }
+		#comentarios{
+			padding: 0 50px 50px 50px;
+			width: 50%;
+		}
+		#comentarios p{
+			margin: 0;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+		.caja{
+			margin-bottom: 20px;
+			border-bottom: 1px solid #ffbe00;
+			padding-bottom: 20px;
+			height: auto;
+			width: 100%;
+			overflow: hidden;
+			box-sizing: border-box !important;
+		}
+		.imagen{
+			border-radius: 100px;
+			height: 100px;
+			width: 100px;
+			background: #ffbe00;
+			float: left;
+			margin-right: 30px;
+			border: 5px solid #ffbe00;
+			overflow: hidden;
+		}
+		.texto{
+			float: left;
+			width: 60%;
+			margin-top: 20px;
+		}
+		.texto h5{
+			color: #004ba8;
+			font-size: 12px;
+			margin-top: 0;
+		}
+		.caja:nth-child(3){
+			margin-left: 30px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!--<h1>El blog de Claudia</h1>-->
+	
+		<div id="top">
+			<div class="linea1"></div>
+			<div class="linea2"></div>
+			<div class="boton"></div>
+			<div class="boton"></div>
+			<div class="boton"></div>
+		</div>
+		<div id="content">
+			<h2>Mensajes</h2>
+			<div class="caja">
+				<div class="imagen">
+					<img src="https://i.pinimg.com/originals/12/f3/c8/12f3c85fc43fbe9c866c1b0eb4cb91a4.jpg" width="100%">
+				</div>
+				<div class="texto">
+					<p></p>Podías sacarte las dudas escribiéndome. ¿Cuál es la necesidad de exponerme así? ¿O exponer tu vida?
+				</div>
+			</div>
+			<div class="caja">
+				<div class="imagen">
+					<img src="https://i.pinimg.com/originals/13/82/92/138292b887d22b2ad317f3840a17ba58.jpg" width="100%">
+				</div>
+				<div class="texto">
+					<h5>En respuesta:</h5>
+					Esperaba una iniciativa tuya. Además, nunca miraste mi blog y ahora te interesa.
+				</div>
+			</div>
+			<div class="caja">
+				<div class="imagen">
+					<img src="https://i.pinimg.com/originals/12/f3/c8/12f3c85fc43fbe9c866c1b0eb4cb91a4.jpg" width="100%">
+				</div>
+				<div class="texto">
+					Me pintas como una desalmada. No sos el ombligo del mundo ¿sabés? Estuve ocupada, iba a llamarte en estos días. 
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+
+</body>
+</html>

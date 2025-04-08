@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap" rel="stylesheet">
+	</script>
+	<style type="text/css">
+		html body{
+			//background: #ffbe00;
+			background: white;
+			font-family: 'Roboto Mono', monospace ;
+			padding: 30px 50px;
+			font-size: 18px;
+		}
+		.container{
+			border: 3px solid ##02539E;
+			//width: 50%;
+		}
+		.container-avatar{
+			padding: 10px;
+			float: left;
+			width: 50%;
+			margin-left: 40px;
+		}
+		.container-avatar .textos{
+			float: left;
+			margin-left: 10px;
+		}
+		.container-avatar .avatar{
+			border: 5px solid #02539E;
+			width: 100px;
+			height: 100px;
+			float: left;
+			overflow: hidden;
+			border-radius: 100px;
+		}
+
+		.container-avatar .avatar img{
+			width: 100%;
+		}
+		#top{
+			background: #06928A;
+			padding: 10px;
+			border-top: 5px solid #02539E;
+			border-left: 5px solid #02539E;
+			border-right: 5px solid #02539E;
+			height: 33px;
+		}
+		#top2{
+			background: #0284A8;
+			border-top: 5px solid #02539E;
+			border-left: 5px solid #02539E;
+			border-right: 5px solid #02539E;
+			overflow: hidden;
+		}
+		
+		#content{
+			border: 5px solid #02539E;
+			padding: 50px;
+			background: #d0d0d0;
+			color: #ffffff;
+		}
+		.linea1, .linea2{
+			height: 4px;
+			width: 88%;
+			float: left;
+			background: #004ba8;
+			margin-bottom: 6px;
+		}
+		.boton{
+			border-radius: 5px;
+			height: 10px;
+			width: 10px;
+			background: #ffbe00;
+			float: right;
+			margin-top:-13px;
+			margin-left: 10px;
+			border: 5px solid #004ba8;
+		}
+		.boton:nth-child(3) {
+		  background: #aae50a;
+		}
+		.boton:nth-child(5) {
+		  background: #e5670a;
+		}
+		p{
+			font-weight: Thin;
+			line-height: 1.3em;
+			text-indent: 40px;
+
+		}
+		
+		@media only screen and (max-width: 600px) {
+		 .linea1, .linea2 {
+		   width: 70%;
+		  }
+		}
+		h4{
+		  	color: white;
+		  	font-style: italic;
+		  	margin: 0;
+		  	padding: 0;
+		  	overflow: hidden;
+		 }
+		 h2{
+		 	color: white;
+		 	margin-bottom: 10px !important;
+		 	display: block;
+		    font-size: 1.5em !important;
+		    margin-block-start: 0.83em !important;
+		    margin-block-end: 0.83em !important;
+		    margin-inline-start: 0px !important;
+		    margin-inline-end: 0px !important;
+		    font-weight: bold;
+		 }
+		 h5{
+		 	color: #cccccc;
+		 }
+		#comentarios{
+			padding: 0 50px 50px 50px;
+			width: 50%;
+		}
+		#comentarios p{
+			margin: 0;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+		.caja{
+			margin-bottom: 20px;
+			border-bottom: 1px solid #ffbe00;
+			padding-bottom: 20px;
+			height: auto;
+			width: 100%;
+			overflow: hidden;
+			box-sizing: border-box !important;
+		}
+
+		.claudia .imagen{
+			float: right;
+		}
+		.claudia .texto{
+			float: right;
+		}
+		.imagen{
+			border-radius: 100px;
+			height: 80px;
+			width: 80px;
+			background: #0284A8;
+			float: left;
+			margin-right: 30px;
+			border: 5px solid #02539E;
+			overflow: hidden;
+		}
+		.texto{
+			float: left;
+			width: 60%;
+		}
+		.texto h5{
+			color: #004ba8;
+			font-size: 12px;
+			margin-top: 0;
+		}
+		#bottom{
+			//border: 1px solid red;
+			//padding: 50px 0;
+		}
+		.input-text{
+			border: 5px solid #02539E;
+			padding: 10px;
+			border-radius: 10px;
+			background: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	
+		<div id="top">
+			<!--<div class="boton"></div>
+			<div class="boton"></div>
+			<div class="boton"></div>-->
+		</div>
+		<div id="top2">
+			<div class="container-avatar">
+				<div class="avatar">
+					<img src="https://i.pinimg.com/originals/13/95/5c/13955c5a3d38e401ac18e3e568eac43b.jpg">
+				</div>
+				<div class="textos">
+					<h2>Las chi</h2>
+					<h4>Pauli, Abi, Tú</h4>
+				</div>
+			</div>
+			<div class="container-botones">
+				<!--<div class="boton"></div>
+				<div class="boton"></div>
+				<div class="boton"></div>-->
+			</div>
+			
+		</div>
+		<div id="content">
+			<div class="caja claudia">
+				<div class="imagen">
+					<img src="https://i.pinimg.com/originals/13/82/92/138292b887d22b2ad317f3840a17ba58.jpg" width="100%" style="margin-top:-30px;">
+				</div>
+				<div class="texto">
+					<div class="audio">
+						<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/15CLZhkk15-_meemYckQkxgIcUqvnb25O/preview">   
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="caja">
+				<div class="imagen" style="text-align: center;">
+				</div>
+				<div class="texto">
+					<div class="audio">
+						<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/1I4XWsAliE2mO3Jt8K3hJd85AATTq_ZYg/preview">   
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="caja ">
+				<div class="imagen" style="text-align: center;">
+					<img src="https://i.pinimg.com/564x/82/e3/b1/82e3b13a8011def8c7c393f8f6e7e5cc.jpg" width="150%">
+				</div>
+				<div class="texto">
+					<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/1zmefMadAOFN-FhNy0g8hVAWdcnVOkU-M/preview">   
+					</iframe>
+				</div>
+			</div>
+			<div class="caja claudia">
+				<div class="imagen">
+					<img src="https://i.pinimg.com/originals/13/82/92/138292b887d22b2ad317f3840a17ba58.jpg" width="100%" style="margin-top:-30px;">
+				</div>
+				<div class="texto">
+					<div class="audio">
+						<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/1Wit99rvCfLd6BI2aSwNNpqKT12i6ToER/preview">   
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="caja">
+				<div class="imagen" style="text-align: center;">
+					<img src="https://i.pinimg.com/564x/82/e3/b1/82e3b13a8011def8c7c393f8f6e7e5cc.jpg" width="150%">
+				</div>
+				<div class="texto">
+					<div class="audio">
+						<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/14wsJ4Z7GEmcEtEJV905_HL4eSyfZY2Eo/preview">   
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="caja ">
+				<div class="imagen">
+				</div>
+				<div class="texto">
+					<div class="audio">
+						<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/126ZMzy9HTIq7I8H94BELzSL2A7dc2OJ_/preview">   
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="caja">
+				<div class="imagen" style="text-align: center;">
+					<img src="https://i.pinimg.com/564x/82/e3/b1/82e3b13a8011def8c7c393f8f6e7e5cc.jpg" width="150%">
+				</div>
+				<div class="texto">
+					<div class="audio">
+						<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/1PZk_0dtAnSypV_RjxWo1GDZTgW5aCluh/preview">   
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="caja ">
+				<div class="imagen">
+				</div>
+				<div class="texto">
+					<div class="audio">
+						<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/1e48-8pFruRKJYtY2MnDQkSEg5BuzKLM9/preview">   
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="caja">
+				<div class="imagen" style="text-align: center;">
+					<img src="https://i.pinimg.com/564x/82/e3/b1/82e3b13a8011def8c7c393f8f6e7e5cc.jpg" width="150%">
+				</div>
+				<div class="texto">
+					<div class="audio">
+						<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/1LmgcLiQPX5GzgJaninqPJ2J-V1spWuGh/preview">   
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="caja ">
+				<div class="imagen">
+				</div>
+				<div class="texto">
+					<div class="audio">
+						<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/1_Ynv1nMriHosgoBU0EgkUWb5-4lhN9s_/preview">   
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="caja">
+				<div class="imagen" style="text-align: center;">
+					<img src="https://i.pinimg.com/564x/82/e3/b1/82e3b13a8011def8c7c393f8f6e7e5cc.jpg" width="150%">
+				</div>
+				<div class="texto">
+					<div class="audio">
+						<iframe
+						  frameborder="0"
+						  width="100%"	
+						  height="100"
+						  src="https://drive.google.com/file/d/1u_OGnL81cNDMnm73EbRoJ-pf3JrGfAtx/preview">   
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div id="bottom">
+				<div class="input-text">
+					<h5>Escribe un mensaje</h5>
+				</div>
+				<div class="icon"></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
